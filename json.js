@@ -4,11 +4,9 @@ var fs = require('fs');
 var gameData = fs.readFileSync('allgamedata.txt').toString().split("],[");
 var jsonGameData = []
 
-for (i=0; i<22; i++) {
+// console.log(gameData)
 
-    var thisGame = new Object;
-    thisGame.playbyplay = gameData[i]
-    jsonGameData.push(thisGame);
-}
 
-fs.writeFileSync('jsonGameData.txt',jsonGameData)
+
+// console.log(jsonGameData)
+

@@ -6,37 +6,41 @@ var IDs = [ '400988423', '400988425', '400988492', '401000100', '401002169', '40
 var gameData = []
 var jsonGameData = []
 
-// async.eachSeries(IDs,
+async function runCode() {
 
-    // function() {
+    pullPlays();
+    json()
 
-        for (i = 0; i < IDs.length; i++) {
+}
 
-            var content = fs.readFileSync('data/game_' + IDs[i] + '.txt');
-            var $ = cheerio.load(content);
+runCode()
 
-            gameData.push(
-                $('div[id="gameFlow-graph"]').attr('data-plays').replace('],[',',')
-            );
+function pullPlays() {
 
-        }
+    for (i = 0; i < IDs.length; i++) {
 
-    // },
+        var content = fs.readFileSync('data/game_' + IDs[i] + '.txt');
+        var $ = cheerio.load(content);
 
-    console.log(gameData),
-    // fs.writeFileSync('allgamedata.txt',gameData)
+        gameData.push(
+            $('div[id="gameFlow-graph"]').attr('data-plays')
+        );
 
-    // function() {
-    //
-    //     for (i = 0; i < gameData.length; i++) {
-    //
-    //         var thisGame = new Object;
-    //
-    //         thisGame.gameData = gameData[i]
-    //
-    //         jsonGameData.push(thisGame);
-    //     }
-    //
-    //     console.log(jsonGameData)
-    //
-    // });
+    }
+
+}
+
+function json() {
+
+    for (i=0; i<IDs.length; i++) {
+
+        var thisGame = new Object;
+        thisGame.playbyplay = gameData[i]
+        jsonGameData.push(thisGame);
+
+    }
+
+    // fs.writeFileSync('jsonGameData.txt',jsonGameData)
+    console.log(jsonGameData)
+
+}
