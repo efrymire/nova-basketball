@@ -6,14 +6,14 @@ var IDs = [ '400988423', '400988425', '400988492', '401000100', '401002169', '40
 var gameData = []
 var jsonGameData = []
 
-async function runCode() {
-
-    pullPlays();
-    json()
-
-}
-
-runCode()
+// async function runCode() {
+//
+//     pullPlays();
+//     // json()
+//
+// }
+//
+// runCode()
 
 function pullPlays() {
 
@@ -23,24 +23,51 @@ function pullPlays() {
         var $ = cheerio.load(content);
 
         gameData.push(
-            $('div[id="gameFlow-graph"]').attr('data-plays')
+            $('div[id="gameFlow-graph"]').attr('data-plays') //.replace('[{','{').replace('],[',',').replace('}]','}')
         );
 
+        // gameData_sub = gameData.substr(1,gameData.len-1);
+
+        // fs.writeFileSync(IDs[i] + '_data.txt',gameData.substr(1,gameData.len-1))
+
     }
+
+    replace = gameData.toString();
+
+    replace1 = replace.replace(/[/g,'');
+
+    // replace2 = replace1.replace('],[',',')
+    // replace3 = replace2.replace('}]','}')
+
+
+    fs.writeFileSync('data.txt',replace1)
+
+
+    // gameData.replace(/[\[\]']+/g,'')
+    // console.log(gameData)
+    // clean()
+
 
 }
 
-function json() {
+pullPlays()
 
-    for (i=0; i<IDs.length; i++) {
-
-        var thisGame = new Object;
-        thisGame.playbyplay = gameData[i]
-        jsonGameData.push(thisGame);
-
-    }
+// function clean() {
+//
+//     // gameData.replace(/[\[\]']+/g,'')
+//
+//     for (i=0; i<IDs.length; i++) {
+//
+//         var thisGame = new Object;
+//         thisGame.IDs[i] = fs.readFileSync(IDs[i] + '_data.txt')
+//         jsonGameData.push(thisGame);
+//
+//     }
 
     // fs.writeFileSync('jsonGameData.txt',jsonGameData)
-    console.log(jsonGameData)
+    // console.log(jsonGameData)
 
-}
+    // console.log(gameData[0].toString().split('],['))
+    // console.log(gameData)
+
+// }
