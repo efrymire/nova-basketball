@@ -2,41 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30771490-a476-401d-aaa0-86158b3cde9f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/graph.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/400986882_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988008_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988073_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988423_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988425_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988492_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988503_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988510_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988524_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988543_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988548_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988553_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988565_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988569_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988574_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988577_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988584_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988590_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988595_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988599_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988603_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988606_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988612_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988616_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988623_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/400988627_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/401000100_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/401002169_data.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/allgamedata.txt" afterPath="$PROJECT_DIR$/archive/allgamedata.txt" />
-      <change beforePath="$PROJECT_DIR$/data.txt" afterPath="$PROJECT_DIR$/archive/data.txt" />
+      <change beforePath="$PROJECT_DIR$/graph.js" afterPath="$PROJECT_DIR$/graph.js" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/jsonGameData.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pull_data.js" afterPath="$PROJECT_DIR$/pull_data.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,80 +17,96 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="scrape_loop.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrape_loop.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-241">
-              <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pull_data.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pull_data.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="allgamedata.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/archive/allgamedata.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35245">
-              <caret line="0" column="144903" lean-forward="false" selection-start-line="0" selection-start-column="144899" selection-end-line="0" selection-end-column="144903" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graph.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/graph.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="novabasketball_1.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/novabasketball_1.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="0" column="16772" lean-forward="false" selection-start-line="0" selection-start-column="16772" selection-end-line="0" selection-end-column="16772" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="novabasketball.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/novabasketball.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1472">
-              <caret line="0" column="145085" lean-forward="false" selection-start-line="0" selection-start-column="145085" selection-end-line="0" selection-end-column="145085" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.569395">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="scrape_loop.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scrape_loop.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pull_data.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pull_data.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="allgamedata.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/archive/allgamedata.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2160">
+                  <caret line="0" column="144903" lean-forward="false" selection-start-line="0" selection-start-column="144899" selection-end-line="0" selection-end-column="144903" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="graph.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/graph.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="157">
+                  <caret line="53" column="1" lean-forward="false" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="novabasketball_1.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/novabasketball_1.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="0" column="16772" lean-forward="false" selection-start-line="0" selection-start-column="16772" selection-end-line="0" selection-end-column="16772" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="novabasketball_1.json" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/novabasketball_1.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-3929">
+                  <caret line="0" column="1499" lean-forward="false" selection-start-line="0" selection-start-column="1499" selection-end-line="0" selection-end-column="1499" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="novabasketball.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/novabasketball.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="5355">
+                  <caret line="0" column="357041" lean-forward="false" selection-start-line="0" selection-start-column="357032" selection-end-line="0" selection-end-column="357041" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -178,10 +162,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="25" />
+    <option name="x" value="17" />
+    <option name="y" value="23" />
     <option name="width" value="1352" />
-    <option name="height" value="827" />
+    <option name="height" value="826" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -199,6 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,7 +201,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,12 +210,12 @@
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/archive" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -267,12 +251,17 @@
       <workItem from="1520205376794" duration="6999000" />
       <workItem from="1520214169557" duration="352000" />
       <workItem from="1520279923904" duration="99000" />
-      <workItem from="1520636403409" duration="6089000" />
+      <workItem from="1520636403409" duration="6544000" />
+      <workItem from="1520784168342" duration="509000" />
+      <workItem from="1521384183607" duration="12000" />
+      <workItem from="1521384211804" duration="4369000" />
+      <workItem from="1521930520550" duration="226000" />
+      <workItem from="1522084511098" duration="3030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36637000" />
+    <option name="totallyTimeSpent" value="45238000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -284,26 +273,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="25" width="1352" height="827" extended-state="0" />
+    <frame x="17" y="23" width="1352" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15954198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14198473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.011283498" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33664122" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4496183" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.011283498" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -320,14 +309,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scrape_loop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pull_data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -481,20 +462,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsonGameData.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/400988492_data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3861">
-          <caret line="0" column="24045" lean-forward="false" selection-start-line="0" selection-start-column="24045" selection-end-line="0" selection-end-column="24045" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jsonGameData.txt" />
+    <entry file="file://$PROJECT_DIR$/400988492_data.txt" />
     <entry file="file://$PROJECT_DIR$/json.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -502,35 +471,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/400988548_data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/400988548_data.txt" />
     <entry file="file://$PROJECT_DIR$/data2.txt" />
-    <entry file="file://$PROJECT_DIR$/400988073_data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="0" column="225079" lean-forward="true" selection-start-line="0" selection-start-column="225079" selection-end-line="0" selection-end-column="225079" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/400988008_data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="0" column="129009" lean-forward="true" selection-start-line="0" selection-start-column="129009" selection-end-line="0" selection-end-column="129009" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/400988073_data.txt" />
+    <entry file="file://$PROJECT_DIR$/400988008_data.txt" />
     <entry file="file://$PROJECT_DIR$/data/400988524.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -538,7 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="406" column="74" lean-forward="false" selection-start-line="406" selection-start-column="65" selection-end-line="406" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -546,7 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="338" column="756" lean-forward="false" selection-start-line="338" selection-start-column="755" selection-end-line="338" selection-end-column="756" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -554,31 +500,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="0" column="309" lean-forward="false" selection-start-line="0" selection-start-column="309" selection-end-line="0" selection-end-column="309" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/400986882_data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7290">
-          <caret line="0" column="30022" lean-forward="false" selection-start-line="0" selection-start-column="30022" selection-end-line="0" selection-end-column="30022" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pull_data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/400986882_data.txt" />
     <entry file="file://$PROJECT_DIR$/archive/data.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2765">
           <caret line="0" column="748" lean-forward="false" selection-start-line="0" selection-start-column="748" selection-end-line="0" selection-end-column="748" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,13 +515,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrape_loop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
+        <state relative-caret-position="345">
           <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
           <folding />
         </state>
@@ -600,7 +535,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/archive/allgamedata.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35245">
+        <state relative-caret-position="2160">
           <caret line="0" column="144903" lean-forward="false" selection-start-line="0" selection-start-column="144899" selection-end-line="0" selection-end-column="144903" />
           <folding />
         </state>
@@ -608,35 +543,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/novabasketball.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1472">
-          <caret line="0" column="145085" lean-forward="false" selection-start-line="0" selection-start-column="145085" selection-end-line="0" selection-end-column="145085" />
+        <state relative-caret-position="5355">
+          <caret line="0" column="357041" lean-forward="false" selection-start-line="0" selection-start-column="357032" selection-end-line="0" selection-end-column="357041" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/novabasketball_1.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
+        <state relative-caret-position="240">
           <caret line="0" column="16772" lean-forward="false" selection-start-line="0" selection-start-column="16772" selection-end-line="0" selection-end-column="16772" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pull_data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="157">
+          <caret line="53" column="1" lean-forward="false" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

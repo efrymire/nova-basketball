@@ -1,64 +1,83 @@
-// // set the dimensions and margins of the graph
-// var margin = {top: 20, right: 20, bottom: 30, left: 50},
-//     width = 960 - margin.left - margin.right,
-//     height = 500 - margin.top - margin.bottom;
-//
-// var x = d3.scaleTime().range([0, width]);
-// var y = d3.scaleLinear().range([height, 0]);
-//
-// var valueline = d3.line()
-//     .x(function(d) { return x(d.seconds); })
-//     .y(function(d) { return y(d.homeScore); });
-//
-// var valueline2 = d3.line()
-//     .x(function(d) { return x(d.seconds); })
-//     .y(function(d) { return y(d.awayScore); });
-//
-// var svg = d3.select("body").append("svg")
-//     .attr("width", width + margin.left + margin.right)
-//     .attr("height", height + margin.top + margin.bottom)
-//     .append("g")
-//     .attr("transform",
-//         "translate(" + margin.left + "," + margin.top + ")");
-//
-// function draw(data) {
-//
-//     var data = data;
-//
-//     // Add the valueline path.
-//     svg.append("path")
-//         .data([data])
-//         .attr("class", "line")
-//         .attr("d", valueline);
-//
-//     // Add the valueline path.
-//     svg.append("path")
-//         .data([data])
-//         .attr("class", "line")
-//         .attr("d", valueline2);
-//
-// }
+// set the dimensions and margins of the graph
+
+var margin = {top: 30, right: 30, bottom: 30, left: 30},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+console.log('hello')
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform",
+        "translate(" + margin.left + "," + margin.top + ")");
+
+var x = d3.scaleLinear()
+    .domain([0,2400])
+    .range([0, width]);
+
+var y = d3.scaleLinear()
+    .domain([0,100])
+    .range([height, 0]);
+
+// axis formatting
+
+var yAxis = d3.axisRight(y)
+    .tickSize(width)
+
+// var timeFormat = d3.timeFormat("%M:%S");
+var xAxis = d3.axisBottom(x)
+    .tickSize(height)
+    // .tickFormat(timeFormat);
+
+// axis functions for tick styles
+
+var g = d3.select('svg').append('g')
+
+function customYAxis(g) {
+    g.call(yAxis);
+    g.select(".domain").remove();
+    g.selectAll(".tick line").attr("stroke", "#DDDDDD");
+    g.selectAll(".tick text")
+        .attr('font-size','1.1em')
+        .attr("x", width)
+        .attr("dx", 4)
+}
+
+function customXAxis(g) {
+    g.call(xAxis);
+    g.select(".domain").remove();
+    g.selectAll(".tick line").attr("stroke", "#DDDDDD");
+    g.selectAll(".tick text")
+        .attr('text-anchor','end')
+}
+
+var homeTeam = d3.line()
+    .x(function(d) { return x(d[0].seconds); })
+    .y(function(d) { return y(d[0].homeScore); });
+
+var awayTeam = d3.line()
+    .x(function(d) { return x(d.seconds); })
+    .y(function(d) { return y(d.awayScore); });
 
 d3.json("novabasketball_1.json", function(error, data) {
-    if (error) throw error;
 
     console.log(data);
 
-    var height = 500;
-        width = 500;
+    svg.append('g').call(customXAxis);
+    svg.append('g').call(customYAxis);
 
-    var svg = d3.select('body').append('svg')
-        .attr("width", width)
-        .attr("height", height)
+    // Add the valueline path.
+    svg.append("path")
+        .data([data])
+        .attr("class", "line")
+        .attr("d", homeTeam);
 
-    svg.selectAll("bar")
-        .data(data)
-        .enter()
-        .append("rect")
-        .attr("class", "bar")
-        .attr("x", function(d) { return d.seconds; })
-        .attr("y", function(d) { return d.homeScore; })
-        .attr("height", function(d) { return height - d.homeScore; })
-        .attr("width", 5 );
+    // Add the valueline path.
+    svg.append("path")
+        .data([data])
+        .attr("class", "line")
+        .attr("d", awayTeam);
 
 });
